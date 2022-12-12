@@ -1,0 +1,56 @@
+# REF http://help.github.com/ignore-files/ for more about ignoring files.
+
+############################
+# temp and backups
+*~
+*.log
+*.bak
+nohup.out
+tmp
+$RECYCLE*
+ehthumbs.db
+.DS_Store
+Thumbs.db
+Desktop.ini
+Thumbs.db:encryptable
+
+# logging
+*.log
+
+# symbolic links (Ubuntu default naming) to somewhere
+Link to *
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+
+############################
+# other large files
+/ISOs/
+# TODO clean this up
+/windows/TOTEST*
+/REF_incoming*
+config/**/toy*
+/COMPARE/
+
+############################
+# all hidden files/folders...
+.*
+
+# specific exceptions (.gitignore, .htaccess,...)
+# (note: there might be .htaccess on multiple levels...)
+!.gitignore
+!.editorconfig
+!.babelrc
+
+# permit specific vscode settings (stackoverflow.com/a/5534865/444255)
+!.vscode
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
