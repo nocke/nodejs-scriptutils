@@ -1,0 +1,20 @@
+{
+  "name": "@nocke/nodejs-scriptutils",
+  "version": "0.0.1",
+  "description": "some nodejs helpers useful for writing scripts",
+  "main": "howdy.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo 'Wish there was one'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocke/nodejs-scriptutils.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/nocke/nodejs-scriptutils/issues"
+  },
+  "homepage": "https://github.com/nocke/nodejs-scriptutils#readme"
+}
