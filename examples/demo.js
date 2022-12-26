@@ -3,4 +3,3 @@
 import {howdy} from '../main.js'
 
 howdy()
-

@@ -1,8 +1,12 @@
 {
   "name": "@nocke/nodejs-scriptutils",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "some nodejs helpers useful for writing scripts",
   "main": "main.js",
+  "bin": {
+    "nockefoo": "./foocmd.js",
+    "nockebar": "./barcmd.js"
+  },
   "type":"module",
   "scripts": {
     "start": "./examples/demo.js",
