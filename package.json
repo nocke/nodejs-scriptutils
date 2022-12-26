@@ -1,10 +1,11 @@
 {
   "name": "@nocke/nodejs-scriptutils",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "some nodejs helpers useful for writing scripts",
-  "main": "howdy.js",
+  "main": "main.js",
   "type":"module",
   "scripts": {
+    "start": "./examples/demo.js",
     "test": "echo 'Wish there was one'"
   },
   "repository": {
